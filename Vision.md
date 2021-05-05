@@ -1,26 +1,26 @@
 
-#Vision
-##1. Vision Statement
-##Problem statement
+# Vision
+## 1. Vision Statement
+## Problem statement
 El problema de la falta de un sistema que permita a los ciudadanos dar aviso de que en sus hogares cuentan con elementos reciclables afecta a ciudadanos, cartoneros y administrativos, cuyo impacto es un proceso lento y desorganizado, combinado con cartoneros insatisfechos. Una solución exitosa permitiría optimizar y organizar el proceso de recolección, atraer a más ciudadanos a que reciclen y obtener mejores precios por los elementos reciclables juntados.
 
-##Product statement
+## Product statement
 Para ciudadanos, cartoneros y administrativos quienes proveen, recolectan, venden o dirigen en el sistema de reciclaje. El sistema de administración de reciclaje es un software web que permite dar aviso de la posesión de elementos reciclables, obtener una ruta de recorrido para su recolección y agilizar el proceso de recolección. A diferencia del sistema de administración de reciclaje inexistente, nuestro producto proporciona franjas horarias de recolección,  información de los elementos reciclables, genera comunidades de ciudadanos recicladores.
 
-##2. Target Group
+## 2. Target Group
 ## Stakeholders Summary
 El responsable de la cooperativa, quien representa a la dirección de la cooperativa tiene como responsabilidades la negociación y seguimiento del proyecto.
 La secretaria de la cooperativa, quien representa a la administración de la cooperativa, tiene la responsabilidad de garantizar que el sistema cubra las necesidades de la cooperativa, y administrar los datos de registro.
 El cartonero, quien representa a los recuperadores, representa los intereses y necesidades de los mismos.
 El ciudadano, quien se auto-representa, se asegura que el sistema satisfaga sus necesidades.
 
-##User summary
+## User summary
 	La Secretaria de Cooperativa gestiona los datos de los cartoneros y los materiales aceptados, de los recorridos y horarios disponibles, y de los datos de las ventas. Es auto representada por su stakeholder.
 El cartonero se da de alta en el sistema, y visualiza los recorridos y franjas horarias. Es auto representado por su stakeholder.
 El ciudadano da aviso que posee reciclables, y se postula para ofrecer servicio. Es auto representado por su stakeholder. 
 
 
-##3. Needs
+## 3. Needs
 Ante el problema de rutas de recorridos no específicas, cuya prioridad es alta, se presenta la necesidad de obtener automáticamente las mismas. Actualmente, el recorrido se basa en las decisiones del cartonero. Como solución a tal problema, se plantea generar rutas de recorrido equitativas, en base a la capacidad del vehículo de transporte del recuperador, franja horaria de retiro y distancia.
 Ante la demora en el manejo de datos a la hora de registrar, modificar o remover un cartonero, cuya prioridad es alta, se presenta la necesidad de gestionar los datos de los mismos. Actualmente, se lleva un registro manual con los datos de los cartones. Como solución a tal problema, al administrador le gustaría agilizar el proceso de gestión de datos mediante una interfaz dedicada, con rápido acceso a tal información.
 Ante la imposibilidad de informar sobre la posesión de materiales reciclables, incluyendo sus volúmenes, y la incapacidad de indicar una franja horaria de preferencia para el retiro y la distancia al centro de acopio, cuya prioridad es alta, se presenta la necesidad de indicar la posesión de tales reciclables. Actualmente, se llevan de forma personal los materiales al acopio, o son entregados a un cartonero que circula por la zona. Como solución a tal problema, se quiere indicar la disponibilidad de materiales para ser reciclados, marcando sus volúmenes, y la posibilidad de adjuntar una imagen, así como también indicar datos personales y franja horaria de preferencia.
@@ -30,7 +30,7 @@ Ante la demora en el registro de pesaje de materiales, cuya prioridad es media, 
 Ante la imposibilidad de ofrecer servicio de transporte de materiales, cuya prioridad es baja, se presenta la necesidad de postularse como voluntario. Actualmente, cada ciudadano se encarga personalmente de transportar sus materiales, en caso de que cuente con medio de transporte. Como solución a tal problema, se plantea la creación de una cartelera virtual donde cada ciudadano podrá ofrecer servicios de transporte, como también aceptar o rechazar solicitudes entrantes de servicio.
 
 
-##4. Product
+## 4. Product
 >
 >>-Indicar posesión de reciclables: los ciudadanos, además de indicar sus datos personales y franja horaria de preferencia en la que el cartonero pase a retirar los materiales, deberá indicar mediante una categoría el volumen de los materiales a retirar. También deberá poder cargar una foto de los materiales.
 >
@@ -45,7 +45,7 @@ Ante la imposibilidad de ofrecer servicio de transporte de materiales, cuya prio
 
 
 
-##5. Business Goals
+## 5. Business Goals
 
 Este proyecto reemplazará el proceso administrativo manual de recolección de elementos reciclables actual con un software web que permite el acceso de ciudadanos, cartoneros y administrativos a través de un login de usuario.
 
