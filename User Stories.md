@@ -110,3 +110,166 @@ Como ciudadano quiero poder rechazar o acepar una postulacion a mi oferta para c
 >>- Si se acepta la postulacion se enviaran los datos del ofertor al postulante.
 
 >>- Si se rechaza la postulacion se enviara una notificación al postulante.
+
+# User Story Specification: US6
+
+## 1.	Descripción
+
+Como secretaria quiero dar de alta un cartonero para permitir a éste utilizar el servicio.
+
+## 2.	Criterios de Aceptación
+>>- Se deben ingresar los datos personales del cartonero:
+>>>o	Nombre
+
+>>>o	Apellido
+
+>>>o	DNI
+
+>>>o	Dirección
+
+>>>o	Fecha de Nacimiento
+
+>>>o	Capacidad de Volumen
+
+>>- No debe estar registrado en el sistema
+
+>>- Recibe Id único de cartonero generado por el sistema
+
+# User Story Specification: US7
+
+## 1.	Descripción
+
+Como secretaria quiero eliminar los datos de un cartonero para imposibilitar a este el uso del servicio.
+
+## 2.	Criterios de Aceptación
+>>- Indicar Id del cartonero
+
+>>- Una vez borrado, no debe figurar en el listado de Cartoneros
+
+# User Story Specification: US8
+
+## 1.	Descripción
+
+Como secretaria quiero modificar los datos de un cartonero para mantener actualizado el listado de cartoneros.
+
+## 2.	Criterios de Aceptación
+>>- Se deben poder modificar los siguientes datos del cartonero:
+>>>o	Nombre
+
+>>>o	Apellido
+
+>>>o	DNI
+
+>>>o	Dirección
+
+>>>o	Fecha de Nacimiento
+
+>>>o	Capacidad de Volumen
+
+>>- El cartonero debe estar registrado en el sistema
+
+# User Story Specification: US9
+
+## 1.	Descripción
+
+Como secretaria quiero recibir el listado de recorridos de los cartoneros para poder informales sus rutas.
+
+## 2.	Criterios de Aceptación
+>>- Se debera ser equitativo con todos los cartoneros registrados.
+
+>>- No se deberá asignar de forma diaria a un cartonero más de lo que puede transportar en su vehículo.
+
+>>- En caso de asignarse varias viviendas a un cartonero, el total del recorrido (incluido el viaje hasta el depósito) no debe superar los 6km.
+
+>>- Indicar el volumen de los materiales a retirar, entre las opciones:
+>>>o	a) entra en una caja
+
+>>>o	b) entra en el baúl de un auto
+
+>>>o	c) entra en la caja de una camioneta
+
+>>>o	d) es necesario un camión
+
+# User Story Specification: US10
+
+## 1.	Descripción
+
+Como secretaria quiero poder cambiar los datos de la seccion que explica como entregar el material para que los ciudadanos sepan las restricciones y cuidados necesarios.
+
+## 2.	Criterios de Aceptación
+>>- Indica la forma de presentar los materiales
+
+>>- Indica que materiales se aceptan en la cooperativa
+
+# User Story Specification: US11
+
+## 1.	Descripción
+
+Como secretaria quiero conocer el porcentaje de la venta que le corresponde a cada cartonero para efectuar los pagos de manera correcta.
+
+## 2.	Criterios de Aceptación
+>>- Listar por cada cartonero los kilos acopiados de un material dado junto con el porcentaje del total acopiado
+
+# User Story Specification: US12
+
+## 1.	Descripción
+
+Como secretaria quiero registrar la cantidad de kilos vendidos para que se pueda calcular los porcentajes de venta.
+
+## 2.	Criterios de Aceptación
+>>- Restar de forma equitativa de lo acopiado por cada cartonero los kilos vendidos.
+
+# User Story Specification: US13
+
+## 1.	Descripción
+
+Como secretaria quiero poder iniciar sesión para acceder como "Administrador" al sistema.
+
+## 2.	Criterios de Aceptación
+>>- Usuario y Contraseña dedicados a ésta funcionalidad
+
+# User Story Specification: US14
+
+## 1.	Descripción
+
+Como cartonero quiero registrarme en el sistema con el objetivo de dar de alta los materiales recolectados.
+
+## 2.	Criterios de Aceptación
+>>- Se deben ingresar los datos personales del cartonero:
+>>>o	Nombre
+
+>>>o	Apellido
+
+>>>o	DNI
+
+>>>o	Dirección
+
+>>>o	Fecha de Nacimiento
+
+>>>o	Capacidad de Volumen
+
+>>- No debe estar registrado en el sistema
+
+>>- Recibe Id único de cartonero generado por el sistema
+
+# User Story Specification: US15
+
+## 1.	Descripción
+
+Como cartonero quiero registrar la cantidad de materiales que dejo y que casas del recorrido visité para contabilizar mi trabajo.
+
+## 2.	Criterios de Aceptación
+>>- Indicar cuantos kilos de que materiales deposita
+
+>>- Indicar que casa de su recorrido visito
+
+# User Story Specification: US16
+
+## 1.	Descripción
+
+Como cartonero quiero tener acceso a la lista de rutas para saber a donde ir.
+
+## 2.	Criterios de Aceptación
+>>- Debe ingresar su ID para acceder al sistema
+
+>>- Podra ver su propia ruta generada por el sistema
