@@ -15,7 +15,7 @@ El cartonero, quien representa a los recuperadores, representa los intereses y n
 El ciudadano, quien se auto-representa, se asegura que el sistema satisfaga sus necesidades.
 
 ## User summary
-	La Secretaria de Cooperativa gestiona los datos de los cartoneros y los materiales aceptados, de los recorridos y horarios disponibles, y de los datos de las ventas. Es auto representada por su stakeholder.
+La Secretaria de Cooperativa gestiona los datos de los cartoneros y los materiales aceptados, de los recorridos y horarios disponibles, y de los datos de las ventas. Es auto representada por su stakeholder.
 El cartonero se da de alta en el sistema, y visualiza los recorridos y franjas horarias. Es auto representado por su stakeholder.
 El ciudadano da aviso que posee reciclables, y se postula para ofrecer servicio. Es auto representado por su stakeholder. 
 
