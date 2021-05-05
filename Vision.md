@@ -22,11 +22,17 @@ El ciudadano da aviso que posee reciclables, y se postula para ofrecer servicio.
 
 ## 3. Needs
 Ante el problema de rutas de recorridos no específicas, cuya prioridad es alta, se presenta la necesidad de obtener automáticamente las mismas. Actualmente, el recorrido se basa en las decisiones del cartonero. Como solución a tal problema, se plantea generar rutas de recorrido equitativas, en base a la capacidad del vehículo de transporte del recuperador, franja horaria de retiro y distancia.
+
 Ante la demora en el manejo de datos a la hora de registrar, modificar o remover un cartonero, cuya prioridad es alta, se presenta la necesidad de gestionar los datos de los mismos. Actualmente, se lleva un registro manual con los datos de los cartones. Como solución a tal problema, al administrador le gustaría agilizar el proceso de gestión de datos mediante una interfaz dedicada, con rápido acceso a tal información.
+
 Ante la imposibilidad de informar sobre la posesión de materiales reciclables, incluyendo sus volúmenes, y la incapacidad de indicar una franja horaria de preferencia para el retiro y la distancia al centro de acopio, cuya prioridad es alta, se presenta la necesidad de indicar la posesión de tales reciclables. Actualmente, se llevan de forma personal los materiales al acopio, o son entregados a un cartonero que circula por la zona. Como solución a tal problema, se quiere indicar la disponibilidad de materiales para ser reciclados, marcando sus volúmenes, y la posibilidad de adjuntar una imagen, así como también indicar datos personales y franja horaria de preferencia.
+
 Ante la dificultad para visualizar porcentajes de ventas correspondientes a cada cartonero, cuya prioridad es media-alta, se presenta la necesidad de conocer automáticamente tal porcentaje. Actualmente, se calculan y registran manualmente los porcentajes. Como solución a tal problema, se plantea que, conociendo el valor final y el aporte realizado por cada cartonero, se calcule automáticamente el porcentaje de dicha venta asociado al cartonero.
+
 Ante el desconocimiento sobre la clasificación de reciclables y la condición de entrega de los mismos, cuya prioridad es media, se presenta la necesidad de conocer detalles sobre tales materiales. Actualmente, los materiales son recolectados sin consideraciones, y son clasificados una vez arriban al acopio. Como solución a tal problema, se plantea una sección en la cual se explica cuales son los materiales aceptados, al igual que sus condiciones de entrega.
+
 Ante la demora en el registro de pesaje de materiales, cuya prioridad es media, se presenta la necesidad de registrar datos del pesaje automáticamente. Actualmente, tanto el pesaje como el registro de los datos se hacen manualmente. Como solución a tal problema, se plantea la optimización del proceso de pesado y registro de materiales, conectando el sistema y la balanza a través de bluetooth.
+
 Ante la imposibilidad de ofrecer servicio de transporte de materiales, cuya prioridad es baja, se presenta la necesidad de postularse como voluntario. Actualmente, cada ciudadano se encarga personalmente de transportar sus materiales, en caso de que cuente con medio de transporte. Como solución a tal problema, se plantea la creación de una cartelera virtual donde cada ciudadano podrá ofrecer servicios de transporte, como también aceptar o rechazar solicitudes entrantes de servicio.
 
 
