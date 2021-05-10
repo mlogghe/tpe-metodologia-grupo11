@@ -4,14 +4,14 @@ Descripción: El sistema genera los recorridos de los cartoneros
 
 Actor primario: Reloj
 
-Trigger:El caso de uso se activa todos los días habiles a las 8 am.
+Trigger: El caso de uso se activa todos los días habiles a las 8 am.
 
 Curso básico:
 	1. El sistema asigna a cada cartonero viviendas
 	2. El sistema comprueba el total del recorrido
 	3. El sistema comprueba el volumen de materiales a retirar por el cartonero
-	3. El sistema envia el listado de recorridos por mail a la secretaria
-	4. El caso de uso finaliza
+	4. El sistema envia el listado de recorridos por mail a la secretaria
+	5. El caso de uso finaliza
 
 Cursos alternativos:
 	2. El sistema comprueba el total del recorrido
@@ -25,4 +25,3 @@ Cursos alternativos:
 		3.3 Ir al paso 4
 
 Post-condición: La generacion de recorridos es equitativa para todos los cartoneros registrados
-
