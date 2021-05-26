@@ -1,7 +1,6 @@
 # Nombre de caso de uso: Consultar los porcentajes de venta.
 
-## 1. Descripción
->o Uso: Se describe el proceso por el cual  se accede a la información de participación de los cartoneros y el porcentaje de dinero de una venta realizada.
+## 1. Descripción: Se describe el proceso por el cual  se accede a la información de participación de los cartoneros y el porcentaje de dinero de una venta realizada.
 
 >o Actor principal: Secretaria.
 
