@@ -47,7 +47,7 @@ Como ciudadano quiero depositar materiales en el centro de acopio para contribui
 
 >>- De ser posible que los kilos se pasen automaticamente al sistema a traves de la balanza bluetooth
 
-# User Story Specification: US3
+# User Story Specification: US3 - **EPICA**
 
 ## 1.	Descripción
 
