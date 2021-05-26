@@ -1,4 +1,4 @@
-#Nombre del caso de uso: Eliminar Cartonero.
+# Nombre del caso de uso: Eliminar Cartonero.
 
 ## 1. Descripción Breve: La secretaria quiere dar de baja a un cartonero eliminando sus datos de la lista de cartoneros.
 
