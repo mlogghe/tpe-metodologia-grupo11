@@ -74,4 +74,5 @@
                 4.3.4 Ir al paso 4.3.
 
 
-## 4. Suposiciones: La secretaria está logueada.
+## 4. Suposiciones: 
+>- La secretaria está logueada.
