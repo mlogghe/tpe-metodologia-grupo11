@@ -3,6 +3,7 @@
 ## 1.Descripción: El sistema genera los recorridos de los cartoneros
 
 >o Actor primario: Reloj
+>
 >o Actor secundario: Secretaria
 
 >o Trigger: El caso de uso se activa todos los días habiles a las 8 am.
