@@ -8,6 +8,7 @@
     3. El sistema presenta la lista de recorridos generada para el día.
     4. El caso de uso finaliza.
 
-## 3. Precondición: Los recorridos deben estar generados.                                                                                                                                                                                                   
+## 3. Precondición: 
+>- Los recorridos deben estar generados.                                                                                                                                                                                                   
 ## 4. Suposición: 
 >- La secretaria está logueada (Caso de uso:Login).
