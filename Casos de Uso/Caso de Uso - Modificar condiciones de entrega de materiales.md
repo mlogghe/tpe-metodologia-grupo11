@@ -1,16 +1,16 @@
-﻿Nombre del caso de uso: Modificar condiciones de entrega de materiales.
+# Nombre del caso de uso: Modificar condiciones de entrega de materiales.
 
 
-Descripción breve: La secretaria quiere modificar los tipos y el estado en la que se deben entregar los materiales.
+## 1. Descripción breve: La secretaria quiere modificar los tipos y el estado en la que se deben entregar los materiales.
 
 
-Actor primario: Secretaria.
+>o Actor primario: Secretaria.
 
 
-Trigger: El caso de uso comienza cuando la secretaria quiere modificar los datos que se muestran para la entrega de materiales.
+>o Trigger: El caso de uso comienza cuando la secretaria quiere modificar los datos que se muestran para la entrega de materiales.
 
 
-Curso Básico:
+## 2. Curso Básico:
 
 
 	1. El caso de uso comienza cuando la secretaria quiere modificar los datos que se muestran para la entrega de materiales.
@@ -26,7 +26,7 @@ Curso Básico:
 	5. Finaliza caso de uso.
 
 
-Curso alternativo: La secretaria selecciona eliminar material.
+## 3.1. Curso alternativo: La secretaria selecciona eliminar material.
 
 
 	4. El sistema ejecuta la función seleccionada.
@@ -37,7 +37,7 @@ Curso alternativo: La secretaria selecciona eliminar material.
    		4.5. Ir al paso 5.
 
 
-Curso alternativo: La secretaria selecciona agregar material
+## 3.2. Curso alternativo: La secretaria selecciona agregar material
 
 
 	4. El sistema ejecuta la función seleccionada.
@@ -52,7 +52,7 @@ Curso alternativo: La secretaria selecciona agregar material
    		4.5. Ir al paso 5.
 
 
-Curso alternativo: La secretaria selecciona Modificar material
+## 3.3. Curso alternativo: La secretaria selecciona Modificar material
 
 
 	4. El sistema ejecuta la función seleccionada.
@@ -65,7 +65,7 @@ Curso alternativo: La secretaria selecciona Modificar material
   		4.7. Ir al paso 5.
 
 
-Curso alternativo: La secretaria ingresa un tipo de material incorrecto
+## 3.4. Curso alternativo: La secretaria ingresa un tipo de material incorrecto
         
         4.3  La secretaria ingresa el tipo de material.
                 4.3.1 La secretaria ingresa un tipo incorrecto de material.
@@ -74,4 +74,4 @@ Curso alternativo: La secretaria ingresa un tipo de material incorrecto
                 4.3.4 Ir al paso 4.3.
 
 
-Suposiciones: La secretaria está logueada.
+## 4. Suposiciones: La secretaria está logueada.
