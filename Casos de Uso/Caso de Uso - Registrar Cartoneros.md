@@ -1,14 +1,14 @@
-Nombre Caso de Uso: Registrar Cartonero
+# Nombre Caso de Uso: Registrar Cartonero
 
-Descripción breve: La secretaria quiere registrar un cartonero en el sistema para que el mismo figure de manera correcta.
+## 1. Descripción breve: La secretaria quiere registrar un cartonero en el sistema para que el mismo figure de manera correcta.
 
-Actor primario: Secretaria
+>o Actor primario: Secretaria
 
-Actor secundario: Cartonero
+>o Actor secundario: Cartonero
 
-Trigger: El caso de uso comienza cuando la secretaria quiere registrar un cartonero en el sistema.
+>o Trigger: El caso de uso comienza cuando la secretaria quiere registrar un cartonero en el sistema.
 
-Curso básico: 
+## 2. Curso básico: 
 	1. Se piden el nombre, apellido, DNI, dirección, fecha de nacimiento y capacidad de volumen.
 
 	2. Se ingresan el nombre, apellido, DNI, dirección, fecha de nacimiento y capacidad de volumen.
@@ -19,7 +19,7 @@ Curso básico:
 
 	5.El caso de uso termina.
 
-Curso Alternativo: los datos personales del Cartonero ya se encuentran registrados
+## 3. Curso Alternativo: los datos personales del Cartonero ya se encuentran registrados
 	3. El Sistema verifica los datos ingresados
 		3.1	El Sistema identifica que existe alguien ingresado con esos datos
 		3.2	El Sistema informa de la situación
