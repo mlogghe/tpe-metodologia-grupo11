@@ -6,7 +6,8 @@
     1. El caso de uso comienza cuando una secretaria quiere recibir el listado de recorridos de los cartoneros.
     2. La secretaria le solicita al sistema el listado de recorridos.
     3. El sistema presenta la lista de recorridos generada para el día.
-    4. El caso de uso finaliza.                                                                                                                                                  
+    4. El caso de uso finaliza.
 
 ## 3. Precondición: Los recorridos deben estar generados.                                                                                                                                                                                                   
-## 4. Suposición: La secretaria está logueada (Caso de uso:Login)                                                                                                                                                                                                                                                                 
+## 4. Suposición: 
+>- La secretaria está logueada (Caso de uso:Login).
