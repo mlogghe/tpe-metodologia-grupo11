@@ -34,6 +34,8 @@
    		1. La secretaria no confirma la baja del cartonero.
    		2. Ir al paso 9.
 
-## 4. Precondición: Debe haber por lo menos un cartonero registrado.
+## 4. Precondiciónes
+>- Debe haber por lo menos un cartonero registrado.
 
-## 5. Suposiciones: La secretaria está logueada.
+## 5. Suposiciones
+>- La secretaria está logueada.
