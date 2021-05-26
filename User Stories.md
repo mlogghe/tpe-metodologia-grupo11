@@ -201,7 +201,8 @@ Como secretaria quiero poder cambiar los datos de la seccion que explica como en
 
 >>- Indica que materiales se aceptan en la cooperativa
 
-# User Story Specification: US11
+# User Story Specification: US11 - **EPICA**
+
 
 ## 1.	Descripción
 
