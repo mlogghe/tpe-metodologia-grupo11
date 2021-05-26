@@ -1,12 +1,12 @@
-Nombre de Caso de Uso: Iniciar Sesion
+# Nombre de Caso de Uso: Iniciar Sesion
 
-Descripcion breve: La secretaria debe acceder a su cuenta asignada por el sistema para poder acceder a ciertas funciones.
+## 1. Descripcion breve: La secretaria debe acceder a su cuenta asignada por el sistema para poder acceder a ciertas funciones.
 
-Actor Primario: Secretaria
+>o Actor Primario: Secretaria
 
-Trigger: El caso de uso comienza cuando la secretaria quiere acceder como administradora al sistema.
+>o Trigger: El caso de uso comienza cuando la secretaria quiere acceder como administradora al sistema.
 
-Curso Basico:
+## 2. Curso Basico:
     1. Se pide usuario y contraseña.
     2. La secretaria ingresa usuario y contraseña.
     3. Se verifica la validez de la contraseña.
