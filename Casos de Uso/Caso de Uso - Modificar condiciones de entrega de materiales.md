@@ -16,9 +16,9 @@
 	1. El caso de uso comienza cuando la secretaria quiere modificar los datos que se muestran para la entrega de materiales.
 
 	2. El sistema muestra las opciones.
-	* Eliminar material
-	* Agregar material
-	* Modificar material
+	>o Eliminar material
+	>o Agregar material
+	>o Modificar material
 	3. La secretaria selecciona una opción.
 
 	4. El sistema ejecuta la función seleccionada.
