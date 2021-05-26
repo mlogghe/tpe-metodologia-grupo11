@@ -1,4 +1,4 @@
-# User Story Specification: US1
+# User Story Specification: US1 - **EPICA**
 
 ## 1.	Descripción
 
@@ -146,7 +146,7 @@ Como secretaria quiero eliminar los datos de un cartonero para imposibilitar a e
 
 >>- Una vez borrado, no debe figurar en el listado de Cartoneros
 
-# User Story Specification: US8
+# User Story Specification: US8 - **EPICA**
 
 ## 1.	Descripción
 
@@ -168,7 +168,7 @@ Como secretaria quiero modificar los datos de un cartonero para mantener actuali
 
 >>- El cartonero debe estar registrado en el sistema
 
-# User Story Specification: US9
+# User Story Specification: US9 - **EPICA**
 
 ## 1.	Descripción
 
@@ -252,12 +252,11 @@ Como cartonero quiero registrarme en el sistema con el objetivo de dar de alta l
 
 >>- Recibe Id único de cartonero generado por el sistema
 
-# User Story Specification: US15
+# User Story Specification: US15 - **EPICA**
 
 ## 1.	Descripción
 
 Como cartonero quiero registrar la cantidad de materiales que dejo y que casas del recorrido visité para contabilizar mi trabajo.
-
 ## 2.	Criterios de Aceptación
 >>- Indicar cuantos kilos de que materiales deposita
 
