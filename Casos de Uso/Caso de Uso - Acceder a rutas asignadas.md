@@ -1,11 +1,10 @@
 # Nombre caso de uso: Acceder a las rutas asignadas
 
-## 1. Descripción
-Un cartonero quiere acceder a las rutas asignadas
+## 1. Descripción: Un cartonero quiere acceder a las rutas asignadas
 
-Actor primario: Cartonero
+>o Actor primario: Cartonero
 
-Trigger: El caso de uso comienza cuando el cartonero quiere acceder a las rutas asignadas en el sistema
+>o Trigger: El caso de uso comienza cuando el cartonero quiere acceder a las rutas asignadas en el sistema
 
 ## 2. Curso básico
 	1. El sistema solicita un identificador unico
