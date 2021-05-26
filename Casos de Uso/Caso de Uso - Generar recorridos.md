@@ -24,4 +24,5 @@
 		3.2 El sistema quita materiales a retirar en el recorrido del cartonero
 		3.3 Ir al paso 4
 
-## 4. Post-condición: La generacion de recorridos es equitativa para todos los cartoneros registrados
+## 4. Post-condición:
+>- La generacion de recorridos es equitativa para todos los cartoneros registrados
