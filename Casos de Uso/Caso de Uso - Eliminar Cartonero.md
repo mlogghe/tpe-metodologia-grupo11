@@ -1,12 +1,12 @@
-Nombre del caso de uso: Eliminar Cartonero.
+#Nombre del caso de uso: Eliminar Cartonero.
 
-Descripción Breve: La secretaria quiere dar de baja a un cartonero eliminando sus datos de la lista de cartoneros.
+# 1. Descripción Breve: La secretaria quiere dar de baja a un cartonero eliminando sus datos de la lista de cartoneros.
 
-Actor primario: Secretaria.
+>o Actor primario: Secretaria.
 
-Trigger: El caso de uso comienza cuando la secretaria quiere eliminar los datos de un cartonero.
+>o Trigger: El caso de uso comienza cuando la secretaria quiere eliminar los datos de un cartonero.
 
-Curso básico:
+# 2. Curso básico:
 
 	1. El caso de uso comienza cuando la secretaria quiere eliminar los datos de un cartonero.
 
@@ -20,7 +20,7 @@ Curso básico:
 	9. El sistema actualiza la lista de los cartoneros.
 	10. Finaliza el caso de uso.
 
-Curso Alternativo: El documento ingresado no existe.
+# 3.1. Curso Alternativo: El documento ingresado no existe.
 
 	4. El sistema verifica el número de documento ingresado.
    		1. El sistema verifica que existe un cartonero con ese número de documento.
@@ -29,11 +29,11 @@ Curso Alternativo: El documento ingresado no existe.
   		4. La secretaría vuelve a ingresar el número de documento.
   		5. Ir al paso 5.
 
-Curso Alternativa: La secretaria no confirma la baja del cartonero.
+# 3.2. Curso Alternativa: La secretaria no confirma la baja del cartonero.
 	7. La secretaria  debe confirmar la eliminación del cartonero.
    		1. La secretaria no confirma la baja del cartonero.
    		2. Ir al paso 9.
 
-Precondición: Debe haber por lo menos un cartonero registrado.
+# 4. Precondición: Debe haber por lo menos un cartonero registrado.
 
-Suposiciones: La secretaria está logueada.
+# 5. Suposiciones: La secretaria está logueada.
