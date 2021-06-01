@@ -133,7 +133,7 @@ Como secretaria quiero dar de alta un cartonero para permitir a éste utilizar e
 
 >>- No debe estar registrado en el sistema
 
->>- Recibe Id único de cartonero generado por el sistema
+>>- Recibe su acceso único de cartonero generado por el sistema
 
 # User Story Specification: US7
 
@@ -142,7 +142,7 @@ Como secretaria quiero dar de alta un cartonero para permitir a éste utilizar e
 Como secretaria quiero eliminar los datos de un cartonero para imposibilitar a este el uso del servicio.
 
 ## 2.	Criterios de Aceptación
->>- Indicar Id del cartonero
+>>- Indicar acceso único del cartonero
 
 >>- Una vez borrado, no debe figurar en el listado de Cartoneros
 
@@ -251,7 +251,7 @@ Como cartonero quiero registrarme en el sistema con el objetivo de dar de alta l
 
 >>- No debe estar registrado en el sistema
 
->>- Recibe Id único de cartonero generado por el sistema
+>>- Recibe su acceso único de cartonero generado por el sistema
 
 # User Story Specification: US15 - **EPICA**
 
@@ -270,6 +270,6 @@ Como cartonero quiero registrar la cantidad de materiales que dejo y que casas d
 Como cartonero quiero tener acceso a la lista de rutas para saber a donde ir.
 
 ## 2.	Criterios de Aceptación
->>- Debe ingresar su ID para acceder al sistema
+>>- Debe ingresar su acceso al sistema
 
 >>- Podra ver su propia ruta generada por el sistema
