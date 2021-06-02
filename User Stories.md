@@ -273,3 +273,21 @@ Como cartonero quiero tener acceso a la lista de rutas para saber a donde ir.
 >>- Debe ingresar su acceso al sistema
 
 >>- Podra ver su propia ruta generada por el sistema
+
+# User Story Specification: US17
+
+## 1.	Descripción
+
+Como secretaria quiero que el sistema genere los recorridos para simplificar mi trabajo.
+
+## 2.	Criterios de Aceptación
+>>- El sistema debe generar recorridos de manera equitativa para todos los cartoneros registrados
+
+>>- El sistema no debe asignar de forma diaria a un cartoner mas de lo que puede transportar en su vehiculo
+
+>>- El sistema debe comprobar que el total del recorrido del cartonero no supera los 6km
+
+>>- El sistema debera enviar el listado completo de los recorridos al correo de la secretaria
+
+>>- En caso que el volumen a retirar por el cartonero corresponda a la categoría “a”, el sistema deberá asignarle el mismo en caso de que el lugar de recolección quede
+en su camino a otras viviendas con categorías de volumen mayores (es decir, “b”, “c” y “d”)
