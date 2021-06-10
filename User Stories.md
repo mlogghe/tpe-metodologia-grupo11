@@ -129,7 +129,7 @@ Como ciudadano quiero poder ofrecer transporte en la cartelera virtual para tran
 
 >>- Requiere que la cartelera este creada.
 
-# User Story Specification: US4
+# User Story Specification: US3.(1)
 
 ## 1.	Descripción
 
@@ -156,11 +156,24 @@ Como ciudadano quiero poder postularme en la cartelera virtual para hacer uso de
 
 >>- Se debe enviar un mail al ciudadano que genero la oferta con los datos cargados.
 
-# User Story Specification: US5
+# User Story Specification: US3.2
 
 ## 1.	Descripción
 
-Como ciudadano quiero poder rechazar o acepar una postulacion a mi oferta para controlar las personas involucradas.
+Como ciudadano postulante quiero poder rechazar o acepar una oferta para controlar las personas involucradas.
+
+## 2.	Criterios de Aceptación
+>>- El ciudadano que se postulo puede aceptar o rechazar ofertas.
+
+>>- Si se acepta la oferta se enviaran los datos del ofertor al postulante.
+
+>>- Si se rechaza la oferta se enviara una notificación al ciudadano.
+
+# User Story Specification: US3.3
+
+## 1.	Descripción
+
+Como ciudadano quiero poder rechazar o aceptar una postulacion a mi oferta para controlar las personas involucradas.
 
 ## 2.	Criterios de Aceptación
 >>- El ciudadano que genero la oferta puede aceptar o rechazarla.
@@ -169,7 +182,7 @@ Como ciudadano quiero poder rechazar o acepar una postulacion a mi oferta para c
 
 >>- Si se rechaza la postulacion se enviara una notificación al postulante.
 
-# User Story Specification: US6
+# User Story Specification: US4
 
 ## 1. Descripcion
 
@@ -180,7 +193,7 @@ Como ciudadano quiero tener acceso a la lista actualizada de materiales aceptado
 
 >>- Ciudadano debe tener acceso a la plataforma con las indicaciones de reciclado
 
-# User Story Specification: US7
+# User Story Specification: US5
 
 ## 1. Descripcion
 
@@ -193,7 +206,35 @@ Como ciudadano quiero tener acceso a la informacion del postulante para poder co
 
 >>- Ciudadano debe haber ingresado su correo electronico de contacto con anterioridad
 
-# User Story Specification: US8
+------------------------------------------------------------------------------------------------
+
+# User Story Specification: US6 - **EPICA**
+
+## 1.	Descripción
+
+Como secretaria quiero modificar los datos de un cartonero para mantener actualizado el listado de cartoneros.
+
+## 2.	Criterios de Aceptación
+>>- Se deben poder modificar los siguientes datos del cartonero:
+>>>o	Nombre
+
+>>>o	Apellido
+
+>>>o	DNI
+
+>>>o	Dirección
+
+>>>o	Fecha de Nacimiento
+
+>>>o	Capacidad de Volumen
+
+>>- El cartonero debe estar registrado en el sistema
+
+>>- Si se quiere eliminar se saca de la lista de cartonero y se borran sus recorridos.
+
+>>- Si no esta registado, se lo da de alta.
+
+# User Story Specification: US6.1 (Es parte de US6)
 
 ## 1.	Descripción
 
@@ -217,7 +258,7 @@ Como secretaria quiero dar de alta un cartonero para permitir a éste utilizar e
 
 >>- Recibe su acceso único de cartonero generado por el sistema
 
-# User Story Specification: US9
+# User Story Specification: US6.2 (es parte de US6)
 
 ## 1.	Descripción
 
@@ -228,11 +269,13 @@ Como secretaria quiero eliminar los datos de un cartonero para imposibilitar a e
 
 >>- Una vez borrado, no debe figurar en el listado de Cartoneros
 
-# User Story Specification: US10 - **EPICA**
+>>- Se borran todas los datos relaciados con el cartonero.
+
+# User Story Specification: US6.3 (es parte de US6)
 
 ## 1.	Descripción
 
-Como secretaria quiero modificar los datos de un cartonero para mantener actualizado el listado de cartoneros.
+Como secretaria quiero mantener actualizados los datos de un cartonero para corregir errores o cambios.
 
 ## 2.	Criterios de Aceptación
 >>- Se deben poder modificar los siguientes datos del cartonero:
@@ -250,7 +293,8 @@ Como secretaria quiero modificar los datos de un cartonero para mantener actuali
 
 >>- El cartonero debe estar registrado en el sistema
 
-# User Story Specification: US11 - **EPICA**
+
+# User Story Specification: US7
 
 ## 1.	Descripción
 
@@ -272,7 +316,7 @@ Como secretaria quiero recibir el listado de recorridos de los cartoneros para p
 
 >>>o	d) es necesario un camión
 
-# User Story Specification: US12
+# User Story Specification: US8
 
 ## 1.	Descripción
 
@@ -283,8 +327,7 @@ Como secretaria quiero poder cambiar los datos de la seccion que explica como en
 
 >>- Indica que materiales se aceptan en la cooperativa
 
-# User Story Specification: US13 - **EPICA**
-
+# User Story Specification: US9
 
 ## 1.	Descripción
 
@@ -293,7 +336,9 @@ Como secretaria quiero conocer el porcentaje de la venta que le corresponde a ca
 ## 2.	Criterios de Aceptación
 >>- Listar por cada cartonero los kilos acopiados de un material dado junto con el porcentaje del total acopiado
 
-# User Story Specification: US14
+>>- Tiene que haber registrado una venta de materiales. 
+
+# User Story Specification: US10
 
 ## 1.	Descripción
 
@@ -302,7 +347,7 @@ Como secretaria quiero registrar la cantidad de kilos vendidos para que se pueda
 ## 2.	Criterios de Aceptación
 >>- Restar de forma equitativa de lo acopiado por cada cartonero los kilos vendidos.
 
-# User Story Specification: US15
+# User Story Specification: US11
 
 ## 1.	Descripción
 
@@ -311,7 +356,27 @@ Como secretaria quiero poder iniciar sesión para acceder como "Administrador" a
 ## 2.	Criterios de Aceptación
 >>- Usuario y Contraseña dedicados a ésta funcionalidad
 
-# User Story Specification: US16
+# User Story Specification: US12
+
+## 1.	Descripción
+
+Como secretaria quiero que el sistema genere los recorridos para simplificar mi trabajo.
+
+## 2.	Criterios de Aceptación
+>>- El sistema debe generar recorridos de manera equitativa para todos los cartoneros registrados
+
+>>- El sistema no debe asignar de forma diaria a un cartoner mas de lo que puede transportar en su vehiculo
+
+>>- El sistema debe comprobar que el total del recorrido del cartonero no supera los 6km
+
+>>- El sistema debera enviar el listado completo de los recorridos al correo de la secretaria
+
+>>- En caso que el volumen a retirar por el cartonero corresponda a la categoría “a”, el sistema deberá asignarle el mismo en caso de que el lugar de recolección quede
+en su camino a otras viviendas con categorías de volumen mayores (es decir, “b”, “c” y “d”)
+
+------------------------------------------------------------------------------------------------------
+
+# User Story Specification: US13
 
 ## 1.	Descripción
 
@@ -335,7 +400,7 @@ Como cartonero quiero registrarme en el sistema con el objetivo de dar de alta l
 
 >>- Recibe su acceso único de cartonero generado por el sistema
 
-# User Story Specification: US17 - **EPICA**
+# User Story Specification: US14 - **EPICA**
 
 ## 1.	Descripción
 
@@ -345,7 +410,7 @@ Como cartonero quiero registrar la cantidad de materiales que dejo y que casas d
 
 >>- Indicar que casa de su recorrido visito
 
-# User Story Specification: US18
+# User Story Specification: US15
 
 ## 1.	Descripción
 
@@ -356,20 +421,3 @@ Como cartonero quiero tener acceso a la lista de rutas para saber a donde ir.
 
 >>- Podra ver su propia ruta generada por el sistema
 
-# User Story Specification: US19
-
-## 1.	Descripción
-
-Como secretaria quiero que el sistema genere los recorridos para simplificar mi trabajo.
-
-## 2.	Criterios de Aceptación
->>- El sistema debe generar recorridos de manera equitativa para todos los cartoneros registrados
-
->>- El sistema no debe asignar de forma diaria a un cartoner mas de lo que puede transportar en su vehiculo
-
->>- El sistema debe comprobar que el total del recorrido del cartonero no supera los 6km
-
->>- El sistema debera enviar el listado completo de los recorridos al correo de la secretaria
-
->>- En caso que el volumen a retirar por el cartonero corresponda a la categoría “a”, el sistema deberá asignarle el mismo en caso de que el lugar de recolección quede
-en su camino a otras viviendas con categorías de volumen mayores (es decir, “b”, “c” y “d”)
