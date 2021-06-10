@@ -44,7 +44,14 @@ Como ciudadano quiero dar aviso de que tengo materiales para que algun asociado 
 
 >>- Indicar franja horaria de preferencia para que retiren los materiales, de 9 a 12hs o de 13 a 17hs.
 
->>- Indicar el volumen de los materiales a retirar, hay 4 categorias de volumen: a) entra en una caja b) entra en el baúl de un auto, c) entra en la caja de una camioneta, d) es necesario un camión
+>>- Indicar el volumen de los materiales a retirar, hay 4 categorias de volumen: 
+>>>o a) entra en una caja 
+
+>>>o b) entra en el baúl de un auto
+
+>>>o c) entra en la caja de una camioneta
+
+>>>o d) es necesario un camión
 
 >>- Adjuntar una foto de los materiales
 
@@ -66,9 +73,9 @@ Como ciudadano quiero poder confirmar el retiro de los materiales junto con una 
 Como cidadano quiero poder dar de baja a mi aviso de materiales para poder avisar a la cooperativa de que no pase por mi casa
 
 ## 2. Criterios de aceptacion
->>- El ciudadano debe tener un retiro de materiales programado.
+>>- Confiramar que el ciudadano debe tener un retiro de materiales programado.
 
->>- Cidadano mediante plataforma o correo electronico envia notificacion de cancelacion de retiro.
+>>- Cidadano debe poder mediante plataforma o correo electronico enviar notificacion de cancelacion de retiro.
 
 >>- Eliminar del sistema la direccion y si ya se calculo una ruta con esa direccion se la elimina.
 
@@ -81,6 +88,13 @@ Como cidadano quiero poder dar de baja a mi aviso de materiales para poder avisa
 Como ciudadano quiero depositar materiales en el centro de acopio para contribuir con la cooperativa.
 
 ## 2.	Criterios de Aceptación
+
+>>- Diseñar formulario para que el usuario ingrese los datos de los materiales
+
+>>- Implementar método que obtenga el peso de la balanza bluetooth
+
+>>- Implementar un método que registre los materiales con su respectivo peso en la base de datos
+
 >>- Indicar cuantos kilos de que materiales deposita
 
 >>- Los materiales se imputan a un usuario generico denominado “vecino buena onda”
@@ -94,6 +108,8 @@ Como ciudadano quiero depositar materiales en el centro de acopio para contribui
 Como ciudadano quiero poder ofrecer transporte en la cartelera virtual para transporte de materiales de otras personas que lo necesiten.
 
 ## 2.	Criterios de Aceptación
+>>- Diseñar formulario para que el usuario cargue los datos
+
 >>- El ciudadano debe ingresar los siguientes datos:
 >>>o	Nombre
 
@@ -106,6 +122,8 @@ Como ciudadano quiero poder ofrecer transporte en la cartelera virtual para tran
 >>>o	Espacio Disponible
 
 >>>o	Texto libre
+
+>>- Implementar método que genere un post con los datos ingresados
 
 >>- Se generara un post que incluya la zona geográfica, el espacio disponible y el texto libre.
 
@@ -158,9 +176,9 @@ Como ciudadano quiero poder rechazar o acepar una postulacion a mi oferta para c
 Como ciudadano quiero tener acceso a la lista actualizada de materiales aceptados por la cooperativa para poder reciclar correctamente
 
 ## 2. Criterios de aceptacion
->>- Los materiales aceptados se deben registrar por la secretaria en una plataforma.
+>>- Secretaria debe poder ingresar la informacion de reciclado
 
->>- Ciudadano tiene acceso a la plataforma con las indicaciones de reciclado
+>>- Ciudadano debe tener acceso a la plataforma con las indicaciones de reciclado
 
 # User Story Specification: US7
 
