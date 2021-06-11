@@ -133,7 +133,7 @@ Como ciudadano quiero poder ofrecer transporte en la cartelera virtual para tran
 
 >>- Requiere que la cartelera este creada.
 
-# User Story Specification: US3.(1)
+# User Story Specification: US3.1
 
 ## 1.	Descripción
 
@@ -166,7 +166,7 @@ Como ciudadano quiero poder postularme en la cartelera virtual para ofrecer tran
 
 >>- Requiere que la cartelera este creada.
 
-# User Story Specification: US3.(2)
+# User Story Specification: US3.2
 
 ## 1.	Descripción
 
