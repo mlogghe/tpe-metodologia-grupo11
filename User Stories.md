@@ -174,7 +174,7 @@ Como ciudadano quiero poder ofrecer transporte en la cartelera virtual para tran
 
 ## 1.	Descripción
 
-Como ciudadano quiero poder postularme en la cartelera virtual para ofrecer transporte de materiales.
+Como ciudadano quiero poder ofrecer transporte de materiales en la cartelera virtual para facilitar el transporte de materiales para otros ciudadanos
 
 ## 2.	Criterios de Aceptación
 >>- El ciudadano debe ingresar los siguientes datos:
@@ -231,10 +231,7 @@ Como ciudadano quiero poder postularme en la cartelera virtual para hacer uso de
 
 >>- Adjuntar imagen de los materiales
 
-
 >>- Implementar método que genere un post con los datos ingresados
-
->>- Se generara un post que incluya la zona geográfica, el espacio disponible y el texto libre.
 
 >>- Requiere que la cartelera este creada.
 
@@ -243,14 +240,14 @@ Como ciudadano quiero poder postularme en la cartelera virtual para hacer uso de
 
 ## 1.	Descripción
 
-Como ciudadano postulante quiero poder rechazar o aceptar a un ciudadano para controlar las personas involucradas.
+Como ciudadano que ofrece transporte quiero poder rechazar o aceptar a un postulante para controlar las personas involucradas.
 
 ## 2.	Criterios de Aceptación
 >>- El ciudadano que se postulo puede aceptar o rechazar ofertas.
 
->>- Si se acepta la oferta se enviaran los datos del ciudadano al postulante ofertor.
+>>- Si se acepta la oferta se enviaran los datos del ofertor al postulante.
 
->>- Si se rechaza la oferta se enviara una notificación al ciudadano.
+>>- Si se rechaza la oferta se enviara una notificación al ciudadano que se postulo.
 
 # User Story Specification: US3.4
 
@@ -269,14 +266,14 @@ Como ciudadano quiero poder rechazar o aceptar un ciudadano que postulado que of
 
 ## 1. Descripcion
 
-Como ciudadano quiero tener acceso a la informacion del postulante para poder coordinar con el a la hora de transportar los materiales
+Como ciudadano que se postulo quiero tener acceso a la del ciudadano que ofrece transporte para poder coordinar con el a la hora de transportar los materiales
 
 ## 2. Criterios de aceptacion
->>- Postulante ingresa datos requeridos.
+>>- Ciudadano que ofrece transporte ingresa datos requeridos.
 
->>- Ciudadano recibe correo electronico con datos ingresados.
+>>- Ciudadano postulante recibe correo electronico con datos ingresados o mediante la pagina web.
 
->>- Ciudadano debe haber ingresado su correo electronico de contacto con anterioridad
+>>- Ciudadano postulante debe haber ingresado su correo electronico de contacto con anterioridad
 
 
 # User Story Specification: US4
