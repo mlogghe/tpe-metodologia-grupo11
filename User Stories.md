@@ -105,6 +105,43 @@ Como ciudadano quiero depositar materiales en el centro de acopio para contribui
 
 >>- De ser posible que los kilos se pasen automaticamente al sistema a traves de la balanza bluetooth
 
+# User Story Specification: US2.1
+
+## 1.	Descripción
+
+Como ciudadano quiero depositar materiales en el centro de acopio para contribuir con la cooperativa.
+
+## 2.	Criterios de Aceptación
+
+>>- Ciudadano se identifica como "Vecino buena onda".
+
+>>- Los materiales se imputan a un recolector generico denominado “vecino buena onda”
+
+>>- Ingresar detalles de materiales.
+
+>>o Tipos.
+
+>>o Volumenes.
+
+
+# User Story Specification: US2.2
+
+## 1.	Descripción
+
+Como ciudadano quiero que el peso de los materiales se registren automaticamente para facilitar el proceso de deposito.
+
+## 2.	Criterios de Aceptación
+
+>>- Ingresar tipo de material.
+
+>>- Calcular peso del material.
+
+>>- Implementar método que obtenga el peso de la balanza bluetooth
+
+>>- Implementar un método que registre los materiales con su respectivo peso en la base de datos
+
+>>- Los kilos y otros datos de interes se pasan automaticamente al sistema a traves de la balanza bluetooth
+
 # User Story Specification: US3 - **EPICA**
 
 ## 1.	Descripción
