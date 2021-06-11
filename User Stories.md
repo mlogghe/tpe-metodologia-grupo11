@@ -202,7 +202,7 @@ Como ciudadano quiero poder postularme en la cartelera virtual para hacer uso de
 >>- Requiere que la cartelera este creada.
 
 
-# User Story Specification: US3.2
+# User Story Specification: US3.3
 
 ## 1.	Descripción
 
@@ -215,7 +215,7 @@ Como ciudadano postulante quiero poder rechazar o aceptar a un ciudadano para co
 
 >>- Si se rechaza la oferta se enviara una notificación al ciudadano.
 
-# User Story Specification: US3.3
+# User Story Specification: US3.4
 
 ## 1.	Descripción
 
@@ -228,7 +228,7 @@ Como ciudadano quiero poder rechazar o aceptar un ciudadano que postulado que of
 
 >>- Si se rechaza la oferta se enviara una notificación al ciudadano postulante.
 
-# User Story Specification: US3.4
+# User Story Specification: US3.5
 
 ## 1. Descripcion
 
