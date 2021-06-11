@@ -395,18 +395,11 @@ Como secretaria quiero recibir el listado de recorridos de los cartoneros para p
 ## 2.	Criterios de Aceptación
 >>- Se debera ser equitativo con todos los cartoneros registrados.
 
->>- No se deberá asignar de forma diaria a un cartonero más de lo que puede transportar en su vehículo.
+>>- El sistema debe haber generado los recorridos.
 
->>- En caso de asignarse varias viviendas a un cartonero, el total del recorrido (incluido el viaje hasta el depósito) no debe superar los 6km.
+>>- Secretaria identifico su correo electronico personal.
 
->>- Indicar el volumen de los materiales a retirar, entre las opciones:
->>>o	a) entra en una caja
-
->>>o	b) entra en el baúl de un auto
-
->>>o	c) entra en la caja de una camioneta
-
->>>o	d) es necesario un camión
+>>- Se envia un correo con la lista generada por el sistema.
 
 # User Story Specification: US7
 
@@ -448,6 +441,8 @@ Como secretaria quiero poder iniciar sesión para acceder como "Administrador" a
 ## 2.	Criterios de Aceptación
 >>- Usuario y Contraseña dedicados a ésta funcionalidad
 
+>>- se le concede permisos de "administrador"
+
 # User Story Specification: US11
 
 ## 1.	Descripción
@@ -455,7 +450,7 @@ Como secretaria quiero poder iniciar sesión para acceder como "Administrador" a
 Como secretaria quiero que el sistema genere los recorridos para simplificar mi trabajo.
 
 ## 2.	Criterios de Aceptación
->>- El sistema debe generar recorridos de manera equitativa para todos los cartoneros registrados
+>>- El sistema debe generar recorridos de manera equitativa para todos los cartoneros registrados a las 8 AM de lunes a viernes
 
 >>- El sistema no debe asignar de forma diaria a un cartoner mas de lo que puede transportar en su vehiculo
 
@@ -497,10 +492,47 @@ Como cartonero quiero registrarme en el sistema con el objetivo de dar de alta l
 ## 1.	Descripción
 
 Como cartonero quiero registrar la cantidad de materiales que dejo y que casas del recorrido visité para contabilizar mi trabajo.
+
 ## 2.	Criterios de Aceptación
->>- Indicar cuantos kilos de que materiales deposita
+>>- Indicar el tipo de material.
 
 >>- Indicar que casa de su recorrido visito
+
+>>- Balanza bluetooth calcula el peso del material ingresado.
+
+>>- recalcular el porcentaje de participacion y actualizar los datos del deposito.
+
+
+# User Story Specification: US13.1
+
+## 1.	Descripción
+
+Como cartonero quiero registrar la cantidad de materiales que dejo para contabilizar mi trabajo.
+
+## 2.	Criterios de Aceptación
+>>- Indicar identificador personal de recolector. 
+
+>>- Indicar los tipos de material.
+
+>>- Balanza bluetooth calcula el peso de cada material ingresado.
+
+>>- recalcular el porcentaje de participacion del recolector identificado.
+
+>>- actualizar los datos del deposito con los nuevos materiales depositados.
+
+# User Story Specification: US13.2
+
+## 1.	Descripción
+
+Como cartonero quiero registrar que casas del recorrido visité para contabilizar mi trabajo.
+
+## 2.	Criterios de Aceptación
+
+>>- Indicar que casa de su recorrido visito
+
+>>- Casas recorridas se eliminan del sistema.
+
+>>- Casas no recorridas se consideran en el proximo dia.
 
 # User Story Specification: US14
 
