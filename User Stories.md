@@ -55,6 +55,8 @@ Como ciudadano quiero dar aviso de que tengo materiales para que algun asociado 
 
 >>- Adjuntar una foto de los materiales
 
+>>- Implementar método que calcule la distancia desde la dirección del ciudadano hasta el centro de acopio.
+
 >>- En caso de que el lugar este a mas de 6km del centro de acopio el sistema debe denegar la solicitud
 
 >>- Si se deniega la solicitud se debe informar al ciudadano de que lo acerque personalmente al centro de acopio.
@@ -197,8 +199,6 @@ Como ciudadano quiero poder ofrecer transporte de materiales en la cartelera vir
 
 >>- Se carga en el sistema su oferta.
 
->>- Implementar método que genere un post con los datos ingresados
-
 >>- Se generara un post que incluya la zona geográfica, el espacio disponible y el texto libre.
 
 >>- Requiere que la cartelera este creada.
@@ -253,7 +253,7 @@ Como ciudadano que ofrece transporte quiero poder rechazar o aceptar a un postul
 
 ## 1.	Descripción
 
-Como ciudadano quiero poder rechazar o aceptar un ciudadano que postulado que ofrecio transporte para controlar las personas involucradas.
+Como ciudadano quiero poder rechazar o aceptar un ciudadano que ofrecio transporte para controlar las personas involucradas.
 
 ## 2.	Criterios de Aceptación
 >>- El ciudadano que genero la oferta puede aceptar o rechazarla.
@@ -271,10 +271,20 @@ Como ciudadano que se postulo quiero tener acceso a la del ciudadano que ofrece 
 ## 2. Criterios de aceptacion
 >>- Ciudadano que ofrece transporte ingresa datos requeridos.
 
->>- Ciudadano postulante recibe correo electronico con datos ingresados o mediante la pagina web.
+>>- Implementar método que genere un post con los datos ingresados del ciudadano que ofrece transporte
 
 >>- Ciudadano postulante debe haber ingresado su correo electronico de contacto con anterioridad
 
+# User Story Specification: US3.6
+
+## 1. Descripcion
+
+Como ciudadano que ofrece transporte quiero saber los datos de los postulados para coordinar con el y estar seguro.
+
+## 2. Criterios de aceptacion
+>>- Ciudadano que se postula debe haber ingresado datos requeridos.
+
+>>- Ciudadano que ofrece tranporte recibe correo electronico con datos ingresados del postulante.
 
 # User Story Specification: US4
 
