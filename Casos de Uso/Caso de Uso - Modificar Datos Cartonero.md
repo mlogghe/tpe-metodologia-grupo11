@@ -12,7 +12,7 @@
 	2. La secretaria ingresa el identificador unico del cartonero
 	3. El sistema verifica el identificador
 	4. El sistema solicita los nuevos datos (nombre, apellido, DNI, dirección y fecha de nacimiento)
-	4. El sistema actualiza los datos del cartonero
+	5. El sistema actualiza los datos del cartonero
 	6. El caso de uso finaliza.
 	
 ## 3. Curso alternativo: No existe un cartonero con el identificador ingresado
