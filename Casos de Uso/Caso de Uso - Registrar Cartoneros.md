@@ -26,3 +26,5 @@
 		3.3	El Sistema solicita reingresar los datos personales
 		3.4	El Cartonero ingresa nombre, apellido, DNI, dirección y fecha de nacimiento nuevos
 		3.5	Ir al paso 4
+
+>o Casos de uso extendidos: Extiende el caso de uso Ingresar cantidad y tipo de materiales cuando el cartonero se quiere registrar, en el punto de extension PtoExt.
