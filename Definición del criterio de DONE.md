@@ -14,9 +14,10 @@
 >>- Implementacion de tutorial de uso para cada rol particular y/o diseñada la capacitacion para el uso del sistema.
 	
 ## Criterios no funcionales
->>- 
-
-
+>>- El sistema debe poseer interfaces gráficas bien formadas.
+>>- El sistema debe generar la lista de cartoneros en menos de 10 segundos.
+>>- El sistema debe obtener el peso de la balanza bluetooth en menos de 5 segundos.
+>>- El sistema no debe consumir mas de 500 mb de memoria ram.
 
 ## Criterios adicionales
 >>- Confirmada la legalidad y terminados los tramites gubernamentales necesarios para el uso del sistema a determinada escala.
