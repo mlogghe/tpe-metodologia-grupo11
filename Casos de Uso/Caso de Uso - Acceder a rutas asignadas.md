@@ -14,7 +14,7 @@
 	5. El caso de uso finaliza
 
 ## 3. Curso alternativo
-	2. El sistema verificara el identificador ingresadi
+	2. El sistema verificara el identificador ingresado
 		2.1 El sistema comprueba que no hay un cartonero registrado con el identificador ingresado
 		2.2 El sistema informa la situacion
 		2.3 El sistema solicita reingresar el identificador unico
