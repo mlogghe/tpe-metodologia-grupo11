@@ -1,6 +1,6 @@
 US de Ciudadano refinadas (Sprint retrospective 02/06)
 
-#US de Ciudadano refindadas
+# US de Ciudadano refindadas
 # User Story Specification: US1.1
 
 ## 1. Descripcion
@@ -213,7 +213,7 @@ Como ciudadano que ofrece transporte quiero saber los datos de los postulados pa
 
 >>- Recibe su acceso único de cartonero generado por el sistema
 
-#US de Secretaria refindadas
+# US de Secretaria refindadas
 
 # User Story Specification: US5.1
 
@@ -275,7 +275,7 @@ Como secretaria quiero mantener actualizados los datos de un cartonero para corr
 >>- El cartonero debe estar registrado en el sistema
 
 
-#US Cartonero refindadas
+# US Cartonero refindadas
 
 # User Story Specification: US13.1
 
