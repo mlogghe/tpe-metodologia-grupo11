@@ -326,7 +326,7 @@ Como secretaria quiero modificar los datos de un cartonero para mantener actuali
 
 >>- Si no esta registado, se lo da de alta.
 
-# User Story Specification: US5.1 (Es parte de US5)
+# User Story Specification: US5.1
 
 ## 1.	Descripción
 
@@ -350,7 +350,7 @@ Como secretaria quiero dar de alta un cartonero para permitir a éste utilizar e
 
 >>- Recibe su acceso único de cartonero generado por el sistema
 
-# User Story Specification: US5.2 (es parte de US5)
+# User Story Specification: US5.2
 
 ## 1.	Descripción
 
@@ -363,7 +363,7 @@ Como secretaria quiero eliminar los datos de un cartonero para imposibilitar a e
 
 >>- Se borran todas los datos relaciados con el cartonero.
 
-# User Story Specification: US5.3 (es parte de US5)
+# User Story Specification: US5.3
 
 ## 1.	Descripción
 
