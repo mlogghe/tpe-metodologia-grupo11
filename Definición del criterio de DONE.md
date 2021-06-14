@@ -14,5 +14,10 @@
 >>- Implementacion de tutorial de uso para cada rol particular y/o diseñada la capacitacion para el uso del sistema.
 	
 ## Criterios no funcionales
+>>- 
+
+
+
+## Criterios adicionales
 >>- Confirmada la legalidad y terminados los tramites gubernamentales necesarios para el uso del sistema a determinada escala.
 >>- Documentacion del projecto y su desarrollo terminada.
