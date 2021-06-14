@@ -15,22 +15,23 @@
     3. El Sistema obtiene el peso de dichos materiales a través de conexión bluetooh con la balanza
     4. El Sistema solicita el tipo de material recolectado
     5. El Cartonero ingresa el tipo de material
-    6. El Sistema solicita un identificador único o la posibilidad de registrarse
-    7. El Cartonero ingresa su identificador
-    8. El Sistema verifica el identificador ingresado
-    9. El Sistema solicita los domicilios visitados para el recorrido asignado al Cartonero
-    10. El Cartonero ingresa los domicilios visitados
-    11. El Sistema actualiza los domicilios no visitados
-    12. El Sistema guarda la información del pesaje
-    13. El Sistema calcula el porcentaje de participación del Cartonero
-    14. El Caso de Uso termina
+    6. PtoExt
+    6. El Cartonero ingresa su identificador único
+    7. El Sistema verifica el identificador ingresado
+    8. El Sistema solicita los domicilios visitados para el recorrido asignado al Cartonero
+    9. El Cartonero ingresa los domicilios visitados
+    10. El Sistema actualiza los domicilios no visitados
+    11. El Sistema guarda la información del pesaje
+    12. El Sistema calcula el porcentaje de participación del Cartonero
+    13. El Caso de Uso termina
 
 ## 3.1 Curso alternativo
 
-    6. El Sistema solicita un identificador único o la posibilidad de registrarse
-      6.1. PtoExt [quiere registrar cartonero]
-      6.2. El Sistema solicita reingresar un identificador único
-      6.3. Ir al paso 7
+    7. El sistema verifica el identificador ingresado
+      7.1. El sistema comprueba que el identificador ingresado no existe
+      7.2. El sistema informa del error
+      7.3. El sistema solicita reingresar el identificador
+      7.4 Ir a 6
 >
 
 ## 4. Suposiciones
