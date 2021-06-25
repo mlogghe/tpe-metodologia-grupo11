@@ -514,11 +514,9 @@ Como cartonero quiero registrar la cantidad de materiales que dejo para contabil
 
 >>- Indicar los tipos de material.
 
->>- Balanza bluetooth calcula el peso de cada material ingresado.
+>>- Balanza calcula el peso de cada material ingresado.
 
->>- recalcular el porcentaje de participacion del recolector identificado.
-
->>- actualizar los datos del deposito con los nuevos materiales depositados.
+>>- Nota avisa al cartonero los datos ingresados y calculados.
 
 # User Story Specification: US13.2
 
@@ -530,9 +528,31 @@ Como cartonero quiero registrar que casas del recorrido visité para contabiliza
 
 >>- Indicar que casa de su recorrido visito
 
+>>- Identifica casas que no confirmaron el retiro de los materiales
+
 >>- Casas recorridas se eliminan del sistema.
 
 >>- Casas no recorridas se consideran en el proximo dia.
+
+# User Story Specification: US13.3
+
+## 1.	Descripción
+
+Como cartonero quiero usar una balanza conectada al sistema para asegurarme de que el peso de los materiales se registra correctamente
+
+## 2.	Criterios de Aceptación
+
+>>- Se indica el tipo de material.
+
+>>- La balanza es inalambrica y esta conectada al sistema
+
+>>- El sistema registra el tipo de material ingresado y el peso relacionado a este.
+
+>>- recalcular el porcentaje de participacion del recolector identificado.
+
+>>- actualizar los datos del deposito con los nuevos materiales depositados.
+
+
 
 # User Story Specification: US14
 
@@ -541,7 +561,9 @@ Como cartonero quiero registrar que casas del recorrido visité para contabiliza
 Como cartonero quiero tener acceso a la lista de rutas para saber a donde ir.
 
 ## 2.	Criterios de Aceptación
->>- Debe ingresar su acceso al sistema
+>>- Debe ingresar al sistema
 
->>- Podra ver su propia ruta generada por el sistema
+>>- Identificar credenciales.
+
+>>- Podra ver su propia ruta generada por el sistema.
 

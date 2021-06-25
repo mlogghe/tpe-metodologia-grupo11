@@ -275,8 +275,6 @@ Como secretaria quiero mantener actualizados los datos de un cartonero para corr
 >>- El cartonero debe estar registrado en el sistema
 
 
-# US Cartonero refindadas
-
 # User Story Specification: US13.1
 
 ## 1.	Descripción
@@ -284,15 +282,14 @@ Como secretaria quiero mantener actualizados los datos de un cartonero para corr
 Como cartonero quiero registrar la cantidad de materiales que dejo para contabilizar mi trabajo.
 
 ## 2.	Criterios de Aceptación
+
 >>- Indicar identificador personal de recolector. 
 
 >>- Indicar los tipos de material.
 
->>- Balanza bluetooth calcula el peso de cada material ingresado.
+>>- Balanza calcula el peso de cada material ingresado.
 
->>- recalcular el porcentaje de participacion del recolector identificado.
-
->>- actualizar los datos del deposito con los nuevos materiales depositados.
+>>- Nota avisa al cartonero los datos ingresados y calculados.
 
 # User Story Specification: US13.2
 
@@ -304,6 +301,27 @@ Como cartonero quiero registrar que casas del recorrido visité para contabiliza
 
 >>- Indicar que casa de su recorrido visito
 
+>>- Identifica casas que no confirmaron el retiro de los materiales
+
 >>- Casas recorridas se eliminan del sistema.
 
 >>- Casas no recorridas se consideran en el proximo dia.
+
+# User Story Specification: US13.3
+
+## 1.	Descripción
+
+Como cartonero quiero usar una balanza conectada al sistema para asegurarme de que el peso de los materiales se registra correctamente
+
+## 2.	Criterios de Aceptación
+
+>>- Se indica el tipo de material.
+
+>>- La balanza es inalambrica y esta conectada al sistema
+
+>>- El sistema registra el tipo de material ingresado y el peso relacionado a este.
+
+>>- recalcular el porcentaje de participacion del recolector identificado.
+
+>>- actualizar los datos del deposito con los nuevos materiales depositados.
+
